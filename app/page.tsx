@@ -1,66 +1,124 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import Link from 'next/link'
+import Image from 'next/image'
 
-export default function Home() {
+export default function HomePage() {
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className={styles.intro}>
-          <h1>To get started, edit the page.tsx file.</h1>
-          <p>
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learning
-            </a>{" "}
-            center.
+    <div className="bg-white w-full grid grid-cols-1 md:grid-cols-9 gap-[40px] px-6 md:px-[64px]">
+      <div className='col-span-1 md:col-start-3 md:col-span-5'>
+        {/* Navigation Header */}
+        <header className="flex flex-col gap-6 md:flex-row md:items-center md:justify-between pt-12 md:pt-32 pb-8 md:pb-12">
+          <div>
+            <Link href="/">
+              <Image
+                src="/assets/minhnguyen.png"
+                alt="my logo"
+                width={240}
+                height={38}
+                className="w-[180px] md:w-[240px] h-auto"
+              />
+            </Link>
+          </div>
+          
+          <nav className="flex gap-10 items-center">
+            <Link href="/about" className="font-serif text-xl text-black hover:opacity-70 transition-opacity">
+              About me
+            </Link>
+            <Link href="#" className="font-serif text-xl text-black hover:opacity-70 transition-opacity">
+              Random
+            </Link>
+          </nav>
+        </header>
+
+        {/* About Section */}
+        <section id="about" className="mb-12 md:mb-20">
+          <p className="font-sans text-base text-black max-w-[540px]">
+            👨‍💻 I'm a Salesforce enthusiast, web designer and technologist. I use this website as a way to track my progress with Salesforce, utilizing Salesforce to provide solutions to real business problems.
           </p>
-        </div>
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+        </section>
+
+        {/* Projects Section */}
+        <section id="projects" className="mb-20 md:mb-24">
+          <div className="flex items-center gap-4 mb-8">
+            <h2 className="font-serif text-[32px] md:text-[40px] font-medium text-black whitespace-nowrap">Projects</h2>
+            <div className="flex-1 h-[1px] bg-[#d9d9d9]"></div>
+          </div>
+
+          <div className="flex flex-col gap-6 max-w-[926px]">
+            {/* Project 1: Intelligent Partner */}
+            <Link href="/project1" className="flex flex-col gap-4 hover:opacity-90 transition-opacity group">
+              <div>
+                <Image
+                  src="/assets/ProjectImage1.png"
+                  alt="Intelligent Partner Lifecycle Optimizer"
+                  width={926}
+                  height={520}
+                  className="w-full h-auto"
+                />
+              </div>
+              <div className="flex flex-col gap-2">
+                <h3 className="font-serif text-[24px] md:text-[32px] text-black">💡Intelligent Partner Lifecycle Optimizer</h3>
+                <p className="font-sans text-base text-black">
+                  I architected an end-to-end partner management solution designed to seamlessly onboard vendors and proactively manage their performance through automated health tracking for a premium E-commerce platform. This system automates the entire lifecycle—from initial onboarding to AI-driven performance optimization—ensuring high service standards across the vendor network.
+                </p>
+                <div className="flex flex-wrap gap-2.5 mt-2">
+                  <span className="bg-[#ffdfdf] text-[#cd0000] text-xs px-2 py-2 rounded-lg">SCREEN FLOW</span>
+                  <span className="bg-[#ffdfdf] text-[#cd0000] text-xs px-2 py-2 rounded-lg">PROMPT BUILDER</span>
+                  <span className="bg-[#ffdfdf] text-[#cd0000] text-xs px-2 py-2 rounded-lg">DASHBOARDS</span>
+                  <span className="bg-[#ffdfdf] text-[#cd0000] text-xs px-2 py-2 rounded-lg">QUALITY AUDITING</span>
+                </div>
+              </div>
+            </Link>
+
+            <div className="w-full h-[1px] bg-[#d9d9d9]"></div>
+
+            {/* Project 2: Vietnam E-Commerce */}
+            <Link href="/project2" className="flex flex-col gap-4 hover:opacity-90 transition-opacity group">
+              <div>
+                <Image
+                  src="/assets/ProjectImage2.png"
+                  alt="Vietnam E-Commerce Eco-Refund Engine"
+                  width={926}
+                  height={520}
+                  className="w-full h-auto"
+                />
+              </div>
+              <div className="flex flex-col gap-2">
+                <h3 className="font-serif text-[24px] md:text-[32px] text-black">🌿 Vietnam E-Commerce Eco-Refund Engine</h3>
+                <p className="font-sans text-base text-black">
+                  This Salesforce solution transforms the traditional, carbon-heavy refund process into a sustainable "Green" lifecycle — offering AI-generated Eco-Credit alternatives to reduce physical returns, logistics costs, and carbon emissions.
+                </p>
+                <div className="flex flex-wrap gap-2.5 mt-2">
+                  <span className="bg-[#ffdfdf] text-[#cd0000] text-xs px-2 py-2 rounded-lg">SCREEN FLOW</span>
+                  <span className="bg-[#ffdfdf] text-[#cd0000] text-xs px-2 py-2 rounded-lg">PROMPT BUILDER</span>
+                  <span className="bg-[#ffdfdf] text-[#cd0000] text-xs px-2 py-2 rounded-lg">UX DESIGN</span>
+                </div>
+              </div>
+            </Link>
+          </div>
+        </section>
+
+        {/* Resume Section */}
+        <section className="pb-24 md:pb-32">
+          <div className="flex items-center gap-4 mb-4 max-w-[926px]">
+            <h2 className="font-serif text-[32px] md:text-[40px] font-medium text-black whitespace-nowrap">Resume</h2>
+            <div className="flex-1 h-[1px] bg-[#d9d9d9]"></div>
+          </div>
+          <a 
+            href="/assets/resume.pdf"
+            download
+            className="font-sans text-xl text-[#8f8f8f] underline hover:text-[#6f6f6f] transition-colors cursor-pointer"
           >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
+            Download Here
+          </a>
+
+          <div className="mt-8 w-full max-w-[926px]">
+            <iframe
+              src="/assets/resume.pdf"
+              className="w-full h-[900px] border rounded-lg"
             />
-            Deploy Now
-          </a>
-          <a
-            className={styles.secondary}
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
+          </div>
+        </section>
+      </div>
     </div>
-  );
+  )
 }
