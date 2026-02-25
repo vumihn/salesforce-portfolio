@@ -95,18 +95,6 @@ export default function Project1Page() {
                 <span className="bg-[#ffdfdf] text-[#cd0000] text-xs px-2 py-2 rounded-lg">EMAIL ACTION</span>
               </div>
             </div>
-
-            <div className="flex flex-col gap-4">
-              <h3 className="font-serif text-2xl text-black">📋 Quality Auditing</h3>
-              <p className="font-sans text-base text-black">
-                Partner Review records can be manually rated and stored by the Quality Audit Manager, or a Scheduled Flow can be configured to automate weekly performance tracking, ensuring consistent oversight without manual reminders or missed review cycles.
-              </p>
-              <div className="flex flex-wrap gap-2.5">
-                <span className="bg-[#ffdfdf] text-[#cd0000] text-xs px-2 py-2 rounded-lg">SCHEDULED FLOW</span>
-                <span className="bg-[#ffdfdf] text-[#cd0000] text-xs px-2 py-2 rounded-lg">AUTOMATION</span>
-                <span className="bg-[#ffdfdf] text-[#cd0000] text-xs px-2 py-2 rounded-lg">QUALITY AUDIT</span>
-              </div>
-            </div>
           </div>
 
           {/* Outcome */}
