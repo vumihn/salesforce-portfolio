@@ -120,7 +120,7 @@ export default function Project1Page() {
             <div className="flex flex-col gap-4">
               <h3 className="font-serif text-2xl text-black">🤖 Agentforce AI Support Agent</h3>
               <div className="font-sans text-base text-black space-y-4">
-                <p>Lama is TechBridge's autonomous Tier 1 support assistant, built from scratch using AgentScript YAML and seven custom Autolaunched Flows as Agent Actions. She handles three topics: Case Status Lookup, Billing and Account Questions, and Human Escalation Handoff, using multi-topic reasoning, typed global session variables, and explicit action sequencing. When a customer signals cancellation, Lama creates a high-priority At-Risk case and notifies the customer that their success manager will follow up. Escalations trigger a structured handoff: 
+                <p>Lama is TechBridge's autonomous Tier 1 support assistant, built from scratch using <a href='https://github.com/vumihn/TechBridge-Agentforce-AgentScript' className='underline font-bold'>AgentScript YAML</a> and seven custom Autolaunched Flows as Agent Actions. She handles three topics: Case Status Lookup, Billing and Account Questions, and Human Escalation Handoff, using multi-topic reasoning, typed global session variables, and explicit action sequencing. When a customer signals cancellation, Lama creates a high-priority At-Risk case and notifies the customer that their success manager will follow up. Escalations trigger a structured handoff: 
                     Lama generates a summary, updates the case to Escalated and confirms the handoff to the customer—all without human involvement. Deployed on Experience Cloud via Embedded Messaging.</p>
                 
               </div>
