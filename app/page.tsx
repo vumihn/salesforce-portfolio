@@ -129,7 +129,7 @@ export default function HomePage() {
             <div className="flex-1 h-[1px] bg-[#d9d9d9]"></div>
           </div>
           <a 
-            href="/assets/Resume.pdf"
+            href="/assets/resume.pdf"
             download
             className="font-sans text-xl text-[#8f8f8f] underline hover:text-[#6f6f6f] transition-colors cursor-pointer"
           >
