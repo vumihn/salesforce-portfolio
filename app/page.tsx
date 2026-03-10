@@ -61,9 +61,9 @@ export default function HomePage() {
                   I built a complete Salesforce org from scratch simulating a real B2B SaaS company deployment. The project covers the full admin and consultant skill set: security model, Sales Cloud lead-to-close process, automated client onboarding, Service Cloud case management with SLA enforcement, and an Agentforce AI agent handling Tier 1 customer support.
                 </p>
                 <div className="flex flex-wrap gap-2.5 mt-2">
-                  <span className="bg-[#ffdfdf] text-[#cd0000] text-xs px-2 py-2 rounded-lg">SECURITY MODEL</span>
-                  <span className="bg-[#ffdfdf] text-[#cd0000] text-xs px-2 py-2 rounded-lg">AUTOMATION</span>
-                  <span className="bg-[#ffdfdf] text-[#cd0000] text-xs px-2 py-2 rounded-lg">AGENTFORCE</span>
+                  <span className="bg-[#ffdfdf] text-[#cd0000] text-xs font-semibold px-2 py-2 rounded-lg">SECURITY MODEL</span>
+                  <span className="bg-[#ffdfdf] text-[#cd0000] text-xs font-semibold px-2 py-2 rounded-lg">AUTOMATION</span>
+                  <span className="bg-[#ffdfdf] text-[#cd0000] text-xs font-semibold px-2 py-2 rounded-lg">AGENTFORCE</span>
 
                 </div>
               </div>
@@ -86,10 +86,10 @@ export default function HomePage() {
                   I architected an end-to-end partner management solution designed to seamlessly onboard vendors and proactively manage their performance through automated health tracking for a premium E-commerce platform. This system automates the entire lifecycle—from initial onboarding to AI-driven performance optimization—ensuring high service standards across the vendor network.
                 </p>
                 <div className="flex flex-wrap gap-2.5 mt-2">
-                  <span className="bg-[#ffdfdf] text-[#cd0000] text-xs px-2 py-2 rounded-lg">SCREEN FLOW</span>
-                  <span className="bg-[#ffdfdf] text-[#cd0000] text-xs px-2 py-2 rounded-lg">PROMPT BUILDER</span>
-                  <span className="bg-[#ffdfdf] text-[#cd0000] text-xs px-2 py-2 rounded-lg">DASHBOARDS</span>
-                  <span className="bg-[#ffdfdf] text-[#cd0000] text-xs px-2 py-2 rounded-lg">QUALITY AUDITING</span>
+                  <span className="bg-[#ffdfdf] text-[#cd0000] text-xs font-semibold px-2 py-2 rounded-lg">SCREEN FLOW</span>
+                  <span className="bg-[#ffdfdf] text-[#cd0000] text-xs font-semibold px-2 py-2 rounded-lg">PROMPT BUILDER</span>
+                  <span className="bg-[#ffdfdf] text-[#cd0000] text-xs font-semibold px-2 py-2 rounded-lg">DASHBOARDS</span>
+                  <span className="bg-[#ffdfdf] text-[#cd0000] text-xs font-semibold px-2 py-2 rounded-lg">QUALITY AUDITING</span>
                 </div>
               </div>
             </Link>
@@ -110,12 +110,12 @@ export default function HomePage() {
               <div className="flex flex-col gap-2">
                 <h3 className="font-serif text-[24px] md:text-[32px] text-black">🌿 Vietnam E-Commerce Eco-Refund Engine</h3>
                 <p className="font-sans text-base text-black">
-                  This Salesforce solution transforms the traditional, carbon-heavy refund process into a sustainable "Green" lifecycle — offering AI-generated Eco-Credit alternatives to reduce physical returns, logistics costs, and carbon emissions.
+                  This Salesforce solution transforms the traditional, carbon-heavy refund process into a sustainable "Green" lifecycle, offering AI-generated Eco-Credit alternatives to reduce physical returns, logistics costs, and carbon emissions.
                 </p>
                 <div className="flex flex-wrap gap-2.5 mt-2">
-                  <span className="bg-[#ffdfdf] text-[#cd0000] text-xs px-2 py-2 rounded-lg">SCREEN FLOW</span>
-                  <span className="bg-[#ffdfdf] text-[#cd0000] text-xs px-2 py-2 rounded-lg">PROMPT BUILDER</span>
-                  <span className="bg-[#ffdfdf] text-[#cd0000] text-xs px-2 py-2 rounded-lg">UX DESIGN</span>
+                  <span className="bg-[#ffdfdf] text-[#cd0000] text-xs font-semibold px-2 py-2 rounded-lg">SCREEN FLOW</span>
+                  <span className="bg-[#ffdfdf] text-[#cd0000] text-xs font-semibold px-2 py-2 rounded-lg">PROMPT BUILDER</span>
+                  <span className="bg-[#ffdfdf] text-[#cd0000] text-xs font-semibold px-2 py-2 rounded-lg">UX DESIGN</span>
                 </div>
               </div>
             </Link>

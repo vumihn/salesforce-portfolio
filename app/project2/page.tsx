@@ -50,9 +50,8 @@ export default function Project1Page() {
             🌿 Vietnam E-Commerce Eco-Refund Engine
           </h1>
 
-          <div className="space-y-4">
-            <p>Traditional e-commerce refunds default to physical returns: the item ships back, gets inspected, restocked or discarded. For a premium Vietnamese platform, this created a compounding problem of logistics overhead, carbon emissions, and customer friction.</p>
-            <p>This Salesforce solution transforms the traditional, carbon-heavy refund process into a sustainable "Green" lifecycle — offering AI-generated Eco-Credit alternatives to reduce physical returns, logistics costs, and carbon emissions.</p>
+          <div className="border-s-yellow-400 border-s-8 rounded-lg px-4 py-4 font-semibold space-y-4">
+            <p>🌟Traditional e-commerce refunds default to physical returns: the item ships back, gets inspected, restocked or discarded. For a premium Vietnamese e-commerce platform, this created a triple cost: reverse logistics overhead, carbon emissions from unnecessary shipments, and customer friction from slow resolutions. This solution transforms avoidable returns into Eco-Credit offers, reducing costs, emissions, and resolution time simultaneously.</p>
           </div>
 
           {/* Features */}
@@ -62,37 +61,43 @@ export default function Project1Page() {
             <div className="flex flex-col gap-4">
               <h3 className="font-serif text-2xl text-black">🍏 Sustainable UX & Selective Routing</h3>
               <p className="font-sans text-base text-black">
-                A Screen Flow with Intent Analysis logic identifies return scenarios like "Purchase by Mistake" and routes them through unique branching paths — promoting eco-friendly alternatives before ever triggering a physical return. This directly reduces return rates and transportation costs. Eco Credit is calculated based on the value of Customer Loyalty Level field on Refund Request records (Platinum, Gold, Silver and Standard).
+                Not every refund request is actually a refund. A customer who bought the wrong size has different intent than one who received a damaged item. The Flow's intent analysis logic identifies these scenarios before routing, steering avoidable returns toward Eco-Credit alternatives and only triggering physical return processes when genuinely necessary. This reduces unnecessary reverse logistics at the source.
               </p>
               <div className="flex flex-wrap gap-2.5">
-                <span className="bg-[#ffdfdf] text-[#cd0000] text-xs px-2 py-2 rounded-lg">SCREEN FLOW</span>
-                <span className="bg-[#ffdfdf] text-[#cd0000] text-xs px-2 py-2 rounded-lg">INTENT ANALYSIS</span>
-                <span className="bg-[#ffdfdf] text-[#cd0000] text-xs px-2 py-2 rounded-lg">VARIABLES</span>
+                <span className="bg-[#ffdfdf] text-[#cd0000] text-xs font-semibold px-2 py-2 rounded-lg">SCREEN FLOW</span>
+                <span className="bg-[#ffdfdf] text-[#cd0000] text-xs font-semibold px-2 py-2 rounded-lg">INTENT ANALYSIS</span>
+                <span className="bg-[#ffdfdf] text-[#cd0000] text-xs font-semibold px-2 py-2 rounded-lg">VARIABLES</span>
               </div>
             </div>
 
             <div className="flex flex-col gap-4">
               <h3 className="font-serif text-2xl text-black">🤖 AI-Generated Eco-Credit Offers</h3>
-              <p className="font-sans text-base text-black">
-                Einstein Prompt Builder uses a Flex Template to generate personalized, Vietnamese-language Eco-Credit offers for each refund scenario. The tone is professional and warm — designed for the cultural context of the platform's customer base.
-              </p>
+              <div className="font-sans text-base text-black space-y-4">
+                <p>
+                  Einstein Prompt Builder uses a Flex Template to generate personalized, Vietnamese-language Eco-Credit offers for each refund scenario. The tone is professional and warm, designed for the cultural context of the platform's customer base.
+                </p>
+                <p>
+                  Generating offers in Vietnamese wasn't just a language setting, it required deliberate prompt engineering to match the platform's premium, relationship-first tone. 
+                  A culturally mismatched offer would damage trust more than a generic one. The prompt template was iterated specifically to feel human-written, not machine-generated.
+                </p>
+              </div>
               <div className="flex flex-wrap gap-2.5">
-                <span className="bg-[#ffdfdf] text-[#cd0000] text-xs px-2 py-2 rounded-lg">PROMPT BUILDER</span>
-                <span className="bg-[#ffdfdf] text-[#cd0000] text-xs px-2 py-2 rounded-lg">FLEX TEMPLATE</span>
+                <span className="bg-[#ffdfdf] text-[#cd0000] text-xs font-semibold px-2 py-2 rounded-lg">PROMPT BUILDER</span>
+                <span className="bg-[#ffdfdf] text-[#cd0000] text-xs font-semibold px-2 py-2 rounded-lg">FLEX TEMPLATE</span>
               </div>
             </div>
 
             <div className="flex flex-col gap-4">
               <h3 className="font-serif text-2xl text-black">🧑‍💻 Human Review & Automated Email</h3>
               <div className="font-sans text-base text-black space-y-4">
-                <p>Before any offer reaches the customer, the AI-generated text surfaces on the agent's screen for review and audit. The agent saves only when satisfied — ensuring quality control while keeping the workflow fast and frictionless.</p>
-                <p>Upon agent approval, a customized email containing the AI-generated offer is sent directly to the customer. Simultaneously, the GeneratedOffer field on the Refund Request record is populated — creating a full audit trail for reporting.</p>
+                <p>AI generates the offer; a human approves it. This isn't a bottleneck—it's a trust mechanism. Agents review the AI-generated text on a single screen, make edits if needed, and send with one click. 
+                  The full offer is logged on the Refund Request record, creating an audit trail for reporting and compliance. The agent saves only when satisfied, ensuring quality control while keeping the workflow fast and frictionless.</p>
               </div>
               <div className="flex flex-wrap gap-2.5">
-                <span className="bg-[#ffdfdf] text-[#cd0000] text-xs px-2 py-2 rounded-lg">SCREEN FLOW</span>
-                <span className="bg-[#ffdfdf] text-[#cd0000] text-xs px-2 py-2 rounded-lg">UI DESIGN</span>
-                <span className="bg-[#ffdfdf] text-[#cd0000] text-xs px-2 py-2 rounded-lg">FIELD UPDATE</span>
-                <span className="bg-[#ffdfdf] text-[#cd0000] text-xs px-2 py-2 rounded-lg">EMAIL ACTION</span>
+                <span className="bg-[#ffdfdf] text-[#cd0000] text-xs font-semibold px-2 py-2 rounded-lg">SCREEN FLOW</span>
+                <span className="bg-[#ffdfdf] text-[#cd0000] text-xs font-semibold px-2 py-2 rounded-lg">UI DESIGN</span>
+                <span className="bg-[#ffdfdf] text-[#cd0000] text-xs font-semibold px-2 py-2 rounded-lg">FIELD UPDATE</span>
+                <span className="bg-[#ffdfdf] text-[#cd0000] text-xs font-semibold px-2 py-2 rounded-lg">EMAIL ACTION</span>
               </div>
             </div>
           </div>
@@ -103,15 +108,15 @@ export default function Project1Page() {
             <div className="flex flex-col gap-4">
               <div className="bg-[#e0ffda] rounded-lg p-4 flex flex-col gap-2">
                 <h3 className="font-sans text-base font-semibold text-[#2f9119]">Reduced Physical Returns</h3>
-                <p className="font-sans text-xs text-[#2f9119]">Intent Analysis routing steers avoidable returns toward Eco-Credit alternatives — lowering reverse logistics costs and the platform's overall carbon footprint.</p>
+                <p className="font-sans text-sm text-[#2f9119]">Avoidable returns are intercepted before they trigger logistics, reducing reverse shipping costs and the platform's carbon footprint per order.</p>
               </div>
               <div className="bg-[#e0ffda] rounded-lg p-4 flex flex-col gap-2">
                 <h3 className="font-sans text-base font-semibold text-[#2f9119]">Faster Agent Resolution</h3>
-                <p className="font-sans text-xs text-[#2f9119]">A single button click initiates the entire AI offer workflow. Agents go from refund request to personalized customer email in minutes — not manual back-and-forth.</p>
+                <p className="font-sans text-sm text-[#2f9119]">What previously required manual drafting and back-and-forth is now a single-screen workflow—agents resolve refund requests in minutes, not hours.</p>
               </div>
               <div className="bg-[#e0ffda] rounded-lg p-4 flex flex-col gap-2">
                 <h3 className="font-sans text-base font-semibold text-[#2f9119]">Localized, Culturally Relevant AI</h3>
-                <p className="font-sans text-xs text-[#2f9119]">AI offers are generated in Vietnamese with a tone calibrated for the platform's premium customer base — a detail that required deliberate prompt engineering to get right.</p>
+                <p className="font-sans text-sm text-[#2f9119]">AI offers are generated in Vietnamese with tone-matched to the platform's premium brand—customers receive personalized communication, not a translated template.</p>
               </div>
             </div>
           </div>
@@ -120,7 +125,8 @@ export default function Project1Page() {
           <div className="bg-[#f0f0f0] rounded-lg px-4 py-6 flex flex-col gap-4">
             <h2 className="font-serif text-[32px] font-medium text-black">Reflection</h2>
             <div className="font-sans text-base text-[#8f8f8f] space-y-4">
-              <p>This is one of my first attempts to utilize AI Prompt to solve a business solution. Engineering the Prompt Builder template for Vietnamese language and cultural tone was the hardest part. A generic prompt produces a generic offer. I had to iterate on the context structure: customer tier, order value, refund reason to get output that felt genuinely tailored rather than machine-generated. The human review step wasn't just a safety net; it was a deliberate trust mechanism for the agents using the tool.</p>
+              <p>This is one of my first attempts to utilize AI Prompt to solve a business solution. Engineering the Prompt Builder template for Vietnamese language and cultural tone was the hardest part. 
+                A generic prompt produces a generic offer. I had to iterate on the context structure: customer tier, order value, refund reason to get output that felt genuinely tailored rather than machine-generated. The human review step wasn't just a safety net; it was a deliberate trust mechanism for the agents using the tool.</p>
             </div>
           </div>
 
