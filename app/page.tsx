@@ -69,11 +69,35 @@ export default function HomePage() {
               </div>
             </Link>
 
-            {/* Project 2: Intelligent Partner */}
+            {/* Project 2: NPSP */}
+            <Link href="/project2" className="flex flex-col gap-4 hover:opacity-90 transition-opacity group">
+              <div>
+                <Image
+                  src="/assets/project4.png"
+                  alt="Vietnam E-Commerce Eco-Refund Engine"
+                  width={926}
+                  height={520}
+                  className="w-full h-auto"
+                />
+              </div>
+              <div className="flex flex-col gap-2">
+                <h3 className="font-serif text-[24px] md:text-[32px] text-black">🔵 Building with Nonprofit Cloud in Salesforce</h3>
+                <p className="font-sans text-base text-black">
+                  This project is a complete Salesforce system for a simulated nonprofit, designed around three roles: the Coordinator who manages volunteers, the Fundraiser who manages donors and grants, and the Executive who needs answers without asking anyone for a report.
+                </p>
+                <div className="flex flex-wrap gap-2.5 mt-2">
+                  <span className="bg-[#ffdfdf] text-[#cd0000] text-xs font-semibold px-2 py-2 rounded-lg">NPSP</span>
+                  <span className="bg-[#ffdfdf] text-[#cd0000] text-xs font-semibold px-2 py-2 rounded-lg">SCREEN FLOW</span>
+                  <span className="bg-[#ffdfdf] text-[#cd0000] text-xs font-semibold px-2 py-2 rounded-lg">UX DESIGN</span>
+                </div>
+              </div>
+            </Link>
+
+            {/* Project 3: Intelligent Partner */}
             <Link href="/project1" className="flex flex-col gap-4 hover:opacity-90 transition-opacity group">
               <div>
                 <Image
-                  src="/assets/ProjectImage1.png"
+                  src="/assets/project2.png"
                   alt="Intelligent Partner Lifecycle Optimizer"
                   width={926}
                   height={520}
@@ -96,29 +120,7 @@ export default function HomePage() {
 
             <div className="w-full h-[1px] bg-[#d9d9d9]"></div>
 
-            {/* Project 3: Vietnam E-Commerce */}
-            <Link href="/project2" className="flex flex-col gap-4 hover:opacity-90 transition-opacity group">
-              <div>
-                <Image
-                  src="/assets/ProjectImage2.png"
-                  alt="Vietnam E-Commerce Eco-Refund Engine"
-                  width={926}
-                  height={520}
-                  className="w-full h-auto"
-                />
-              </div>
-              <div className="flex flex-col gap-2">
-                <h3 className="font-serif text-[24px] md:text-[32px] text-black">🌿 Vietnam E-Commerce Eco-Refund Engine</h3>
-                <p className="font-sans text-base text-black">
-                  This Salesforce solution transforms the traditional, carbon-heavy refund process into a sustainable "Green" lifecycle, offering AI-generated Eco-Credit alternatives to reduce physical returns, logistics costs, and carbon emissions.
-                </p>
-                <div className="flex flex-wrap gap-2.5 mt-2">
-                  <span className="bg-[#ffdfdf] text-[#cd0000] text-xs font-semibold px-2 py-2 rounded-lg">SCREEN FLOW</span>
-                  <span className="bg-[#ffdfdf] text-[#cd0000] text-xs font-semibold px-2 py-2 rounded-lg">PROMPT BUILDER</span>
-                  <span className="bg-[#ffdfdf] text-[#cd0000] text-xs font-semibold px-2 py-2 rounded-lg">UX DESIGN</span>
-                </div>
-              </div>
-            </Link>
+            
           </div>
         </section>
 
