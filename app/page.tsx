@@ -131,7 +131,7 @@ export default function HomePage() {
             <div className="flex-1 h-[1px] bg-[#d9d9d9]"></div>
           </div>
           <a 
-            href="/assets/resume.pdf"
+            href="/assets/Resume.pdf"
             download
             className="font-sans text-xl text-[#8f8f8f] underline hover:text-[#6f6f6f] transition-colors cursor-pointer"
           >
@@ -140,7 +140,7 @@ export default function HomePage() {
 
           <div className="mt-8 w-full max-w-[926px]">
             <iframe
-              src="/assets/resume.pdf"
+              src="/assets/Resume.pdf"
               className="w-full h-[900px] border rounded-lg"
             />
           </div>
