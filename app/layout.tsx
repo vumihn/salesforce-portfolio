@@ -15,7 +15,7 @@ const notoSerif = Noto_Serif({
 });
 
 export const metadata: Metadata = {
-  title: "Minh Nguyen's Salesforce Portfolio",
+  title: "Minh's Salesforce Portfolio",
   description: "Salesforce enthusiast, technologist, designer",
 };
 
