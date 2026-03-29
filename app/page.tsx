@@ -58,7 +58,7 @@ export default function HomePage() {
               <div className="flex flex-col gap-2">
                 <h3 className="font-serif text-[24px] md:text-[32px] text-black">🏢 TechBridge Solutions - Full Salesforce Org Build</h3>
                 <p className="font-sans text-base text-black">
-                  I built a complete Salesforce org from scratch simulating a real B2B SaaS company deployment. The project covers the full admin and consultant skill set: security model, Sales Cloud lead-to-close process, automated client onboarding, Service Cloud case management with SLA enforcement, and an Agentforce AI agent handling Tier 1 customer support.
+                  TechBridge had no sales process, no onboarding automation, and no support triage. This is a full Salesforce org build covering security model, lead-to-close flow, automated onboarding, and an Agentforce AI agent, reducing deal-stage entry time by ~40% and Tier 1 ticket volume by ~30%.
                 </p>
                 <div className="flex flex-wrap gap-2.5 mt-2">
                   <span className="bg-[#ffdfdf] text-[#cd0000] text-xs font-semibold px-2 py-2 rounded-lg">SECURITY MODEL</span>
@@ -83,7 +83,7 @@ export default function HomePage() {
               <div className="flex flex-col gap-2">
                 <h3 className="font-serif text-[24px] md:text-[32px] text-black">🔵 Building with Nonprofit Cloud in Salesforce</h3>
                 <p className="font-sans text-base text-black">
-                  This project is a complete Salesforce system for a simulated nonprofit, designed around three roles: the Coordinator who manages volunteers, the Fundraiser who manages donors and grants, and the Executive who needs answers without asking anyone for a report.
+                  Most nonprofits track volunteers, donors, and grants across spreadsheets with no single source of truth. This project is a complete NPSP-based system built around three roles: Coordinator, Fundraiser, and Executive with scheduling flows, automated outreach, and a dashboard that answers operational questions without anyone running a report.
                 </p>
                 <div className="flex flex-wrap gap-2.5 mt-2">
                   <span className="bg-[#ffdfdf] text-[#cd0000] text-xs font-semibold px-2 py-2 rounded-lg">NPSP</span>
@@ -107,7 +107,7 @@ export default function HomePage() {
               <div className="flex flex-col gap-2">
                 <h3 className="font-serif text-[24px] md:text-[32px] text-black">💡Intelligent Partner Lifecycle Optimizer</h3>
                 <p className="font-sans text-base text-black">
-                  I architected an end-to-end partner management solution designed to seamlessly onboard vendors and proactively manage their performance through automated health tracking for a premium E-commerce platform. This system automates the entire lifecycle—from initial onboarding to AI-driven performance optimization—ensuring high service standards across the vendor network.
+                  Vendor onboarding was manual and inconsistent, with no visibility into underperforming partners. This system automates the full lifecycle from onboarding to AI-driven coaching, cutting form completion time by ~50%.
                 </p>
                 <div className="flex flex-wrap gap-2.5 mt-2">
                   <span className="bg-[#ffdfdf] text-[#cd0000] text-xs font-semibold px-2 py-2 rounded-lg">SCREEN FLOW</span>

@@ -50,9 +50,35 @@ export default function Project1Page() {
             🏢 TechBridge Solutions - Full Salesforce Org Build
           </h1>
 
+          {/* The Problem */}
+          <div className="bg-[#f5f5f5] rounded-lg px-4 py-4">
+            <p className="font-sans text-sm text-[#5a5a5a]">
+              <span className="font-semibold text-black">The Problem: </span>TechBridge had no structured sales process, no onboarding automation, and no support tier system. Every deal moved through informal steps, every new client required manual setup, and support volume had no triage layer.
+            </p>
+          </div>
+
           <div className="border-s-yellow-400 border-s-8 font-semibold px-4 py-4 rounded-lg space-y-4">
             <p>🌟TechBridge Solutions is a mid-market B2B SaaS company with a growing sales team, no structured pipeline process, and rising support overhead. 
               I designed and built a full Salesforce org to solve all three—from first lead to post-sale AI support.</p>
+          </div>
+
+          {/* Outcome */}
+          <div className="flex flex-col gap-6">
+            <h2 className="font-serif text-[32px] font-medium text-black">Outcome</h2>
+            <div className="flex flex-col gap-4">
+              <div className="bg-[#e0ffda] rounded-lg p-4 flex flex-col gap-2">
+                <h3 className="font-sans text-base font-semibold text-[#2f9119]">Governed, Scalable Org</h3>
+                <p className="font-sans text-sm text-[#2f9119]">Every user sees exactly what their role requires, and the architecture scales to 500 users without manual record management.</p>
+              </div>
+              <div className="bg-[#e0ffda] rounded-lg p-4 flex flex-col gap-2">
+                <h3 className="font-sans text-base font-semibold text-[#2f9119]">Autonomous Tier 1 Support</h3>
+                <p className="font-sans text-sm text-[#2f9119]">Lama resolves common requests end-to-end and hands off complex cases with full context already documented.</p>
+              </div>
+              <div className="bg-[#e0ffda] rounded-lg p-4 flex flex-col gap-2">
+                <h3 className="font-sans text-base font-semibold text-[#2f9119]">Zero-Touch Onboarding</h3>
+                <p className="font-sans text-sm text-[#2f9119]">What used to take 2-3 hours of manual CS setup now happens automatically the moment a deal closes.</p>
+              </div>
+            </div>
           </div>
 
           {/* Features */}
@@ -78,6 +104,9 @@ export default function Project1Page() {
             <div className="flex flex-col gap-4">
               <h3 className="font-serif text-2xl text-black">💵 Lead-to-Close Sales Process</h3>
               <div className="font-sans text-base text-black space-y-4">
+                <p>
+                  Enterprise and SMB leads were hitting the same queue with no routing logic, and reps had no structured discovery process before creating Opportunities.
+                </p>
                 <p>
                   Reps were converting Leads without complete data, and deals were stalling with no stage guidance. I redesigned the full B2B sales cycle to enforce data quality at entry and guide reps through each stage, including auto-assigning Decision Maker roles to VP and Director-level contacts.
                 </p>
@@ -136,25 +165,6 @@ export default function Project1Page() {
                 <span className="bg-[#ffdfdf] text-[#cd0000] text-xs font-semibold px-2 py-2 rounded-lg">AGENTFORCE</span>
                 <span className="bg-[#ffdfdf] text-[#cd0000] text-xs font-semibold px-2 py-2 rounded-lg">AUTOLAUNCHED FLOW</span>
                 <span className="bg-[#ffdfdf] text-[#cd0000] text-xs font-semibold px-2 py-2 rounded-lg">EXPERIENCE CLOUD</span>
-              </div>
-            </div>
-          </div>
-
-          {/* Outcome */}
-          <div className="flex flex-col gap-6">
-            <h2 className="font-serif text-[32px] font-medium text-black">Outcome</h2>
-            <div className="flex flex-col gap-4">
-              <div className="bg-[#e0ffda] rounded-lg p-4 flex flex-col gap-2">
-                <h3 className="font-sans text-base font-semibold text-[#2f9119]">Governed, Scalable Org</h3>
-                <p className="font-sans text-sm text-[#2f9119]">Every user sees exactly what their role requires, and the architecture scales to 500 users without manual record management.</p>
-              </div>
-              <div className="bg-[#e0ffda] rounded-lg p-4 flex flex-col gap-2">
-                <h3 className="font-sans text-base font-semibold text-[#2f9119]">Autonomous Tier 1 Support</h3>
-                <p className="font-sans text-sm text-[#2f9119]">Lama resolves common requests end-to-end and hands off complex cases with full context already documented.</p>
-              </div>
-              <div className="bg-[#e0ffda] rounded-lg p-4 flex flex-col gap-2">
-                <h3 className="font-sans text-base font-semibold text-[#2f9119]">Zero-Touch Onboarding</h3>
-                <p className="font-sans text-sm text-[#2f9119]">What used to take 2-3 hours of manual CS setup now happens automatically the moment a deal closes.</p>
               </div>
             </div>
           </div>

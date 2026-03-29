@@ -50,12 +50,17 @@ export default function Project1Page() {
             💡 Intelligent Partner Lifecycle Optimizer
           </h1>
 
-          <div className='border-s-yellow-400 border-s-8 rounded-lg px-4 py-4 font-semibold'>
-            <p>🌟For a premium e-commerce platform, managing a growing vendor network and partner onboarding was a manual, email-heavy process—and underperforming vendors had no structured path to improve. This solution automates onboarding from first form to live account, and uses AI-generated coaching plans to turn performance data into concrete vendor guidance.</p>
+          {/* The Problem */}
+          <div className="bg-[#f5f5f5] rounded-lg px-4 py-4">
+            <p className="font-sans text-sm text-[#5a5a5a]">
+              <span className="font-semibold text-black">The Problem: </span>Vendor onboarding was handled through manual back-and-forth emails, performance had no consistent measurement system, and underperforming partners received no structured guidance, leaving the partner network operating without visibility or accountability.
+            </p>
           </div>
 
-          {/* User Stories */}
+          {/* My Approach */}
           <div className="flex flex-col gap-6">
+            <h2 className="font-serif text-[32px] font-medium text-black">My Approach</h2>
+            <p className="font-sans text-base text-black">Before building anything, I mapped the three people who would use this system every day.</p>
             <div className="flex gap-5 items-start">
               <div className="w-[5px] self-stretch bg-[#a162c9] rounded flex-shrink-0"></div>
               <div className="flex flex-col gap-2">
@@ -81,6 +86,29 @@ export default function Project1Page() {
                 <p className="font-sans text-base font-light italic text-black">
                   "As a vendor, I want to understand specifically why my Health Score is low and what I should do about it, not just receive a generic performance warning."
                 </p>
+              </div>
+            </div>
+          </div>
+
+          <div className='border-s-yellow-400 border-s-8 rounded-lg px-4 py-4 font-semibold'>
+            <p>🌟For a premium e-commerce platform, managing a growing vendor network and partner onboarding was a manual, email-heavy process—and underperforming vendors had no structured path to improve. This solution automates onboarding from first form to live account, and uses AI-generated coaching plans to turn performance data into concrete vendor guidance.</p>
+          </div>
+
+          {/* Outcome */}
+          <div className="flex flex-col gap-6">
+            <h2 className="font-serif text-[32px] font-medium text-black">Outcome</h2>
+            <div className="flex flex-col gap-4">
+              <div className="bg-[#e0ffda] rounded-lg p-4 flex flex-col gap-2">
+                <h3 className="font-sans text-base font-semibold text-[#2f9119]">Friction-Free Onboarding</h3>
+                <p className="font-sans text-sm text-[#2f9119]">Partner Managers go from email chaos to a single structured wizard, onboarding time cut by ~50%, with zero missing required fields at submission</p>
+              </div>
+              <div className="bg-[#e0ffda] rounded-lg p-4 flex flex-col gap-2">
+                <h3 className="font-sans text-base font-semibold text-[#2f9119]">AI-Powered Improvement Plans</h3>
+                <p className="font-sans text-sm text-[#2f9119]">Underperforming vendors receive specific, data-driven coaching within the same workflow, replacing the manual work of writing individual feedback</p>
+              </div>
+              <div className="bg-[#e0ffda] rounded-lg p-4 flex flex-col gap-2">
+                <h3 className="font-sans text-base font-semibold text-[#2f9119]">Executive Visibility</h3>
+                <p className="font-sans text-sm text-[#2f9119]">Leadership can see in real time which business sectors are thriving or struggling across the partner network, without waiting for manual reports</p>
               </div>
             </div>
           </div>
@@ -142,25 +170,6 @@ export default function Project1Page() {
                 <span className="bg-[#ffdfdf] text-[#cd0000] text-xs font-semibold px-2 py-2 rounded-lg">SCHEDULED FLOW</span>
                 <span className="bg-[#ffdfdf] text-[#cd0000] text-xs font-semibold px-2 py-2 rounded-lg">AUTOMATION</span>
                 <span className="bg-[#ffdfdf] text-[#cd0000] text-xs font-semibold px-2 py-2 rounded-lg">QUALITY AUDIT</span>
-              </div>
-            </div>
-          </div>
-
-          {/* Outcome */}
-          <div className="flex flex-col gap-6">
-            <h2 className="font-serif text-[32px] font-medium text-black">Outcome</h2>
-            <div className="flex flex-col gap-4">
-              <div className="bg-[#e0ffda] rounded-lg p-4 flex flex-col gap-2">
-                <h3 className="font-sans text-base font-semibold text-[#2f9119]">Friction-Free Onboarding</h3>
-                <p className="font-sans text-sm text-[#2f9119]">Partner Managers go from email chaos to a single structured wizard, onboarding time cut by ~50%, with zero missing required fields at submission</p>
-              </div>
-              <div className="bg-[#e0ffda] rounded-lg p-4 flex flex-col gap-2">
-                <h3 className="font-sans text-base font-semibold text-[#2f9119]">AI-Powered Improvement Plans</h3>
-                <p className="font-sans text-sm text-[#2f9119]">Underperforming vendors receive specific, data-driven coaching within the same workflow, replacing the manual work of writing individual feedback</p>
-              </div>
-              <div className="bg-[#e0ffda] rounded-lg p-4 flex flex-col gap-2">
-                <h3 className="font-sans text-base font-semibold text-[#2f9119]">Executive Visibility</h3>
-                <p className="font-sans text-sm text-[#2f9119]">Leadership can see in real time which business sectors are thriving or struggling across the partner network, without waiting for manual reports</p>
               </div>
             </div>
           </div>

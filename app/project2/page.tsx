@@ -56,6 +56,25 @@ export default function Project1Page() {
             <p>I built this project as a complete Salesforce system for a simulated nonprofit, designed around three roles: the Coordinator who manages volunteers, the Fundraiser who manages donors and grants, and the Executive who needs answers without asking anyone for a report.</p>
           </div>
 
+          {/* Outcome */}
+          <div className="flex flex-col gap-6">
+            <h2 className="font-serif text-[32px] font-medium text-black">Outcome</h2>
+            <div className="flex flex-col gap-4">
+              <div className="bg-[#e0ffda] rounded-lg p-4 flex flex-col gap-2">
+                <h3 className="font-sans text-base font-semibold text-[#2f9119]">For the Coordinator</h3>
+                <p className="font-sans text-sm text-[#2f9119]">Scheduling a volunteer takes under 2 minutes with automatic conflict checks, confirmation emails, and shift reminders handled by the system.</p>
+              </div>
+              <div className="bg-[#e0ffda] rounded-lg p-4 flex flex-col gap-2">
+                <h3 className="font-sans text-base font-semibold text-[#2f9119]">For the Fundraiser</h3>
+                <p className="font-sans text-sm text-[#2f9119]">Lapsed donors are flagged automatically, grants create donation records when awarded, and every outreach email is personalized without manual writing.</p>
+              </div>
+              <div className="bg-[#e0ffda] rounded-lg p-4 flex flex-col gap-2">
+                <h3 className="font-sans text-base font-semibold text-[#2f9119]">For the Executive</h3>
+                <p className="font-sans text-sm text-[#2f9119]">A single dashboard answers the two most important operational questions. No reports requested, no waiting.</p>
+              </div>
+            </div>
+          </div>
+
           {/* Features */}
           <div className="flex flex-col gap-10">
             <h2 className="font-serif text-[32px] font-medium text-black">Details</h2>
@@ -164,25 +183,6 @@ export default function Project1Page() {
               </div>
             </div>
 
-          </div>
-
-          {/* Outcome */}
-          <div className="flex flex-col gap-6">
-            <h2 className="font-serif text-[32px] font-medium text-black">Outcome</h2>
-            <div className="flex flex-col gap-4">
-              <div className="bg-[#e0ffda] rounded-lg p-4 flex flex-col gap-2">
-                <h3 className="font-sans text-base font-semibold text-[#2f9119]">For the Coordinator</h3>
-                <p className="font-sans text-sm text-[#2f9119]">Scheduling a volunteer takes under 2 minutes with automatic conflict checks, confirmation emails, and shift reminders handled by the system.</p>
-              </div>
-              <div className="bg-[#e0ffda] rounded-lg p-4 flex flex-col gap-2">
-                <h3 className="font-sans text-base font-semibold text-[#2f9119]">For the Fundraiser</h3>
-                <p className="font-sans text-sm text-[#2f9119]">Lapsed donors are flagged automatically, grants create donation records when awarded, and every outreach email is personalized without manual writing.</p>
-              </div>
-              <div className="bg-[#e0ffda] rounded-lg p-4 flex flex-col gap-2">
-                <h3 className="font-sans text-base font-semibold text-[#2f9119]">For the Executive</h3>
-                <p className="font-sans text-sm text-[#2f9119]">A single dashboard answers the two most important operational questions. No reports requested, no waiting.</p>
-              </div>
-            </div>
           </div>
 
           {/* Reflection */}
