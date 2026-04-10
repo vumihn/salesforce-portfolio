@@ -31,7 +31,14 @@ export default function HomePage() {
 
         {/* About Section */}
         <section id="about" className="mb-12 md:mb-20">
-          <p className="font-sans text-base text-black max-w-[540px]">
+          <Image
+            src="/assets/profilepicblue.png"
+            alt="Profile picture"
+            width={154}
+            height={154}
+            className="mb-6 rounded-full shadow-md"
+          />
+          <p className="font-sans font-medium text-black max-w-[540px]">
             👨‍💻 I'm a Salesforce enthusiast, web designer and technologist. I use this website as a way to track my progress with Salesforce, utilizing Salesforce to provide solutions to real business problems.
           </p>
         </section>
