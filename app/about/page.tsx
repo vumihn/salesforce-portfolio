@@ -20,10 +20,10 @@ export default function HomePage() {
           </div>
           
           <nav className="flex gap-10 items-center">
-            <Link href="#about" className="font-serif text-xl text-black hover:opacity-70 transition-opacity">
+            <Link href="#about" className="font-sans font-medium text-lg text-black hover:opacity-70 transition-opacity">
               About me
             </Link>
-            <Link href="#" className="font-serif text-xl text-black hover:opacity-70 transition-opacity">
+            <Link href="#" className="font-sans font-medium text-lg text-black hover:opacity-70 transition-opacity">
               Random
             </Link>
           </nav>

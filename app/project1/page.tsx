@@ -18,10 +18,10 @@ export default function Project1Page() {
             />
           </Link>
           <nav className="flex gap-8 items-center">
-            <Link href="/#about" className="font-serif text-xl text-black hover:opacity-70 transition-opacity">
+            <Link href="/#about" className="font-sans font-medium text-lg text-black hover:opacity-70 transition-opacity">
               About me
             </Link>
-            <Link href="/#projects" className="font-serif text-xl text-black hover:opacity-70 transition-opacity">
+            <Link href="/#projects" className="font-sans font-medium text-lg text-black hover:opacity-70 transition-opacity">
               Random
             </Link>
           </nav>
