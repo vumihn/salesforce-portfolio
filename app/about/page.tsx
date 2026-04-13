@@ -31,7 +31,7 @@ export default function HomePage() {
 
         {/* About Section */}
         <section id="socials" className="mb-12 md:mb-20">
-          <p className="font-sans text-base text-black max-w-[540px]">
+          <p className="font-sans text-base font-medium text-black max-w-[540px]">
             👨‍💻 I'm a Salesforce enthusiast, web designer and technologist. I use this website as a way to track my progress with Salesforce, utilizing Salesforce to provide solutions to real business problems.
           </p>
         </section>
